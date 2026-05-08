@@ -44,11 +44,11 @@ Consider a file named input.txt with the text "hello world":
 3. It will also generate input_decompressed.txt from the compressed .bin file.
 4. The content of input_decompressed.txt will be identical to the original, "hello world".
 
-Flowchart
+### Flowchart
 
-Compression Process
+#### Compression Process
 
-
+```mermaid
 flowchart TD
     A[Input Text] --> B[Calculate Character Frequencies]
     B --> C[Build Huffman Tree]
@@ -58,6 +58,7 @@ flowchart TD
     F --> G[Convert to Byte Array]
     G --> H[Write to Binary File]
     H --> I[Compressed Binary File]
+```
 
 
 
