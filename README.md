@@ -6,8 +6,9 @@
 
 ## Features
 
-● Compression: Compresses a text file using the Huffman coding algorithm.
-● Decompression: Decompresses the compressed binary file back to its original text format.
+● <b>Compression</b>: Compresses a text file using the Huffman coding algorithm.
+<br>
+● <b>Decompression</b>: Decompresses the compressed binary file back to its original text format.
 
 ## How it works
 
